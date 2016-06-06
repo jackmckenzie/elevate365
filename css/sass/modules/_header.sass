@@ -1,0 +1,40 @@
+.info-bar
+	background-color: $elevate-green
+
+p.info-phone, p.info-email
+	// float: left
+	display: inline-block
+	color: white
+	line-height: 2.8rem
+
+.top-header
+	background-color: $elevate-grey-s
+	padding-top: 1.4rem
+	padding-bottom: 1.4rem
+
+h1.brand
+	text-transform: uppercase
+	color: white
+	font-size: 1.5rem
+	line-height: 2.8rem
+
+ul.main-nav
+	// float: right
+	li
+		display: inline-block
+		line-height: 2.8rem
+		// margin-left: 8px
+		padding-right: 15px
+
+		&:last-child
+			padding-right: 0
+		a
+			display: block
+			text-decoration: none
+			color: white
+			background-color: green
+			// padding-left: 8px
+			// padding-right: 8px
+			@include transition(color, .2s ease)
+			&:hover
+				color: $elevate-green
