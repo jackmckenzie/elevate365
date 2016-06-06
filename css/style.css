@@ -73,7 +73,14 @@ body {
 
 /* line 7, sass/partials/_typography.sass */
 h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
+  line-height: 2.8rem;
+}
+
+/* line 11, sass/partials/_typography.sass */
+h3 {
+  font-size: 1.2rem;
+  line-height: 2.8rem;
 }
 
 /* line 1, sass/partials/_layout.sass */
@@ -159,7 +166,13 @@ ul.main-nav li a:hover {
   color: #88c6bc;
 }
 
-/* line 15, sass/style.sass */
+/* line 1, sass/modules/_main.sass */
+.hero {
+  padding-top: 4.2rem;
+  text-align: center;
+}
+
+/* line 16, sass/style.sass */
 h1 {
   color: #88c6bc;
 }
