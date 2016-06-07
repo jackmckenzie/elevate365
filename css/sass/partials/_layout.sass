@@ -4,14 +4,31 @@
 	@include container()
 	padding-left: 15px
 	padding-right: 15px
-	@include breakpoint(768px)
+	@include breakpoint(($bp-sml))
 		@include container(750px)
-	@include breakpoint(992px)
+	@include breakpoint(($bp-md))
 		@include container(970px)
-	@include breakpoint(1200px)
+	@include breakpoint(($bp-lg))
 		@include container(1170px)
 h1.brand
 	float: left
 
 ul.main-nav
 	float: right
+
+.feature-widgets
+	@include span(12)
+	
+	@include breakpoint(($bp-sml))
+		@include span(4)
+		
+		&:last-child
+			@include span(last 4)
+	img
+		display: block
+		max-width: 50%
+		padding-top: 1.4rem
+		height: (1.4rem) * 8
+		margin-right: auto
+		margin-left: auto
+		margin-bottom: 1.4rem 
