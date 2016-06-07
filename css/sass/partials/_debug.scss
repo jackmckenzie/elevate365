@@ -1,0 +1,21 @@
+// Requirements
+// ============
+
+@import "susy";
+
+h1, h2, h3, h4, h5, h6, p {
+	background-color: rgba(150,150,150,0.5);
+}
+
+$base-line-height: 22.4px;
+
+$susy: (
+  columns: 12,
+  column-width: 70px,
+  gutters: 30px/70px,
+  debug: (
+  	image:show,
+	color: rgba(#656, .25),
+	output: background,
+	),
+);

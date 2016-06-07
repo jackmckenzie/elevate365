@@ -3,12 +3,16 @@
 
 p.info-phone, p.info-email
 	// float: left
+	font-size: 0.889rem 
 	display: inline-block
 	color: white
 	line-height: 2.8rem
+	margin-bottom: 0 
+p.info-phone
+	margin-right: 1rem 
 
 .top-header
-	background-color: $elevate-grey-s
+	background-color: $elevate-grey
 	padding-top: 1.4rem
 	padding-bottom: 1.4rem
 
@@ -17,6 +21,7 @@ h1.brand
 	color: white
 	font-size: 1.5rem
 	line-height: 2.8rem
+	margin-bottom: 0
 
 ul.main-nav
 	// float: right
@@ -25,6 +30,7 @@ ul.main-nav
 		line-height: 2.8rem
 		// margin-left: 8px
 		padding-right: 15px
+		cursor: pointer
 
 		&:last-child
 			padding-right: 0
@@ -32,7 +38,7 @@ ul.main-nav
 			display: block
 			text-decoration: none
 			color: white
-			background-color: green
+			// background-color: green
 			// padding-left: 8px
 			// padding-right: 8px
 			@include transition(color, .2s ease)
