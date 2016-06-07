@@ -121,6 +121,7 @@ h6 {
 /* line 27, sass/partials/_typography.sass */
 p {
   font-weight: 300;
+  font-size: 18px;
 }
 
 /* line 1, sass/partials/_layout.sass */
