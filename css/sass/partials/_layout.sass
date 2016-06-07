@@ -1,10 +1,15 @@
 .wrapper
 	@include box-sizing(content-box)
 	@include clearfix
-	@include container(1200px)
+	@include container()
 	padding-left: 15px
 	padding-right: 15px
-
+	@include breakpoint(768px)
+		@include container(750px)
+	@include breakpoint(992px)
+		@include container(970px)
+	@include breakpoint(1200px)
+		@include container(1170px)
 h1.brand
 	float: left
 
