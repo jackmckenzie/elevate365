@@ -1,4 +1,4 @@
-/* line 5, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -20,45 +20,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/compass-core-1.1.0.alpha.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -121,7 +121,13 @@ h6 {
 /* line 27, sass/partials/_typography.sass */
 p {
   font-weight: 300;
-  font-size: 18px;
+}
+
+/* line 30, sass/partials/_typography.sass */
+a {
+  text-decoration: none;
+  color: #e49345;
+  font-weight: 300;
 }
 
 /* line 1, sass/partials/_layout.sass */
@@ -137,7 +143,7 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
-/* line 12, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+/* line 12, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
 .wrapper:after {
   content: " ";
   display: block;
@@ -150,7 +156,7 @@ p {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 12, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  /* line 12, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
   .wrapper:after {
     content: " ";
     display: block;
@@ -164,7 +170,7 @@ p {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 12, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  /* line 12, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
   .wrapper:after {
     content: " ";
     display: block;
@@ -178,7 +184,7 @@ p {
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 12, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+  /* line 12, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
   .wrapper:after {
     content: " ";
     display: block;
@@ -237,44 +243,58 @@ ul.main-nav {
 p.info-phone, p.info-email {
   font-size: 0.889rem;
   display: inline-block;
-  color: white;
-  line-height: 2.8rem;
-  margin-bottom: 0;
+  line-height: 1.4rem;
+  margin-top: 0.7rem;
+  margin-bottom: 0.7rem;
 }
-
-/* line 11, sass/modules/_header.sass */
-p.info-phone {
-  margin-right: 1rem;
-}
-
 /* line 14, sass/modules/_header.sass */
+p.info-phone a, p.info-email a {
+  color: white;
+  display: block;
+  padding: 0 0.5rem;
+  -moz-transition: background-color, ease 0.2s;
+  -o-transition: background-color, ease 0.2s;
+  -webkit-transition: background-color, ease 0.2s;
+  transition: background-color, ease 0.2s;
+}
+/* line 21, sass/modules/_header.sass */
+p.info-phone a:hover, p.info-email a:hover {
+  background-color: #74a7a8;
+}
+
+/* line 25, sass/modules/_header.sass */
+p.info-phone {
+  margin-right: 0.5rem;
+}
+
+/* line 28, sass/modules/_header.sass */
 .top-header {
   background-color: #4e5151;
   padding-top: 1.4rem;
   padding-bottom: 1.4rem;
 }
 
-/* line 19, sass/modules/_header.sass */
+/* line 33, sass/modules/_header.sass */
 h1.brand {
   text-transform: uppercase;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.618rem;
   line-height: 2.8rem;
   margin-bottom: 0;
 }
 
-/* line 28, sass/modules/_header.sass */
+/* line 42, sass/modules/_header.sass */
 ul.main-nav li {
   display: inline-block;
   line-height: 2.8rem;
   padding-right: 15px;
   cursor: pointer;
 }
-/* line 35, sass/modules/_header.sass */
+/* line 49, sass/modules/_header.sass */
 ul.main-nav li:last-child {
   padding-right: 0;
 }
-/* line 37, sass/modules/_header.sass */
+/* line 51, sass/modules/_header.sass */
 ul.main-nav li a {
   display: block;
   text-decoration: none;
@@ -284,7 +304,7 @@ ul.main-nav li a {
   -webkit-transition: color, ease 0.2s;
   transition: color, ease 0.2s;
 }
-/* line 45, sass/modules/_header.sass */
+/* line 59, sass/modules/_header.sass */
 ul.main-nav li a:hover {
   color: #88c6bc;
 }
