@@ -295,11 +295,14 @@ ul.main-nav li a:hover {
   padding-bottom: 7rem;
   text-align: center;
 }
-/* line 6, sass/modules/_main.sass */
+/* line 28, sass/modules/_main.sass */
 .hero button {
   cursor: pointer;
-  background: #e49345;
-  color: #fff;
+  color: #e49345;
+  background-color: transparent;
+  -moz-box-shadow: inset 0 0 0 3px #e49345;
+  -webkit-box-shadow: inset 0 0 0 3px #e49345;
+  box-shadow: inset 0 0 0 3px #e49345;
   font-family: museo-sans, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 1.25rem;
@@ -316,32 +319,29 @@ ul.main-nav li a:hover {
   -webkit-transition-delay: 0s;
   transition: all 0.3s ease 0s;
 }
-/* line 22, sass/modules/_main.sass */
+/* line 45, sass/modules/_main.sass */
 .hero button:hover, .hero button:focus {
-  color: #e49345;
-  background-color: transparent;
-  -moz-box-shadow: inset 0 0 0 3px #e49345;
-  -webkit-box-shadow: inset 0 0 0 3px #e49345;
-  box-shadow: inset 0 0 0 3px #e49345;
+  color: #fff;
+  background-color: #e49345;
 }
 
-/* line 27, sass/modules/_main.sass */
+/* line 49, sass/modules/_main.sass */
 .feature {
   background-color: #88c6bc;
   padding-top: 2.8rem;
   padding-bottom: 2.8rem;
 }
-/* line 32, sass/modules/_main.sass */
+/* line 54, sass/modules/_main.sass */
 .feature h2 {
   text-align: center;
   color: white;
 }
 
-/* line 36, sass/modules/_main.sass */
+/* line 58, sass/modules/_main.sass */
 .feature-widgets {
   background-color: white;
 }
-/* line 39, sass/modules/_main.sass */
+/* line 61, sass/modules/_main.sass */
 .feature-widgets h3 {
   text-align: center;
 }
