@@ -65,7 +65,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 1, sass/partials/_typography.sass */
 body {
-  font-family: "Noto Sans", Helvetica, Arial, sans-serif;
+  font-family: museo-sans, Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 1rem;
   line-height: 1.4;
@@ -77,35 +77,45 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* line 9, sass/partials/_typography.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 500;
+}
+
+/* line 11, sass/partials/_typography.sass */
 h1 {
   font-size: 3.272rem;
   line-height: 4.2rem;
 }
 
-/* line 12, sass/partials/_typography.sass */
+/* line 14, sass/partials/_typography.sass */
 h2 {
   font-size: 2.618rem;
 }
 
-/* line 14, sass/partials/_typography.sass */
+/* line 16, sass/partials/_typography.sass */
 h3 {
   font-size: 2.023rem;
   line-height: 2.8rem;
 }
 
-/* line 17, sass/partials/_typography.sass */
+/* line 19, sass/partials/_typography.sass */
 h4 {
   font-size: 1.618rem;
 }
 
-/* line 19, sass/partials/_typography.sass */
+/* line 21, sass/partials/_typography.sass */
 h5 {
   font-size: 1.25rem;
 }
 
-/* line 21, sass/partials/_typography.sass */
+/* line 23, sass/partials/_typography.sass */
 h6 {
   font-size: 1rem;
+}
+
+/* line 25, sass/partials/_typography.sass */
+p {
+  font-weight: 300;
 }
 
 /* line 1, sass/partials/_layout.sass */
