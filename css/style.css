@@ -352,22 +352,32 @@ ul.main-nav li a:hover {
 }
 
 /* line 66, sass/modules/_main.sass */
+.intro {
+  padding-top: 2.8rem;
+  padding-bottom: 2.8rem;
+}
+/* line 69, sass/modules/_main.sass */
+.intro h2, .intro h4 {
+  text-align: center;
+}
+
+/* line 71, sass/modules/_main.sass */
 .feature {
   background-color: #88c6bc;
   padding-top: 2.8rem;
   padding-bottom: 2.8rem;
 }
-/* line 71, sass/modules/_main.sass */
+/* line 76, sass/modules/_main.sass */
 .feature h2 {
   text-align: center;
   color: white;
 }
 
-/* line 75, sass/modules/_main.sass */
+/* line 80, sass/modules/_main.sass */
 .feature-widgets {
   background-color: white;
 }
-/* line 78, sass/modules/_main.sass */
+/* line 83, sass/modules/_main.sass */
 .feature-widgets h3 {
   text-align: center;
 }
