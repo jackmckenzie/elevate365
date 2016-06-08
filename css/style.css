@@ -311,7 +311,7 @@ ul.main-nav li a:hover {
 
 /* line 1, sass/modules/_main.sass */
 .hero {
-  background-image: url(../img/bg_hero.jpg);
+  background-image: url(../img/bg_hero_s.jpg);
   background-size: 100% auto;
   padding-top: 11.2rem;
   padding-bottom: 16.8rem;
