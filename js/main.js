@@ -1,3 +1,4 @@
+$(document).ready(function() {
 // Parallax
 (function($){
   $.fn.parallax = function(options){
@@ -24,3 +25,5 @@
 })(jQuery);
 
 $('.hero').parallax({ 'coeff':-0.2 });
+
+});

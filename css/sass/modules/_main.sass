@@ -3,8 +3,10 @@
 	background-image: url(../img/bg_hero.jpg)
 	// background-position: 50% 25%
 	background-size: 100% auto
-	padding-top: (1.4rem) * 8
-	padding-bottom: (1.4rem) * 12
+	// padding-top: (1.4rem) * 8
+	// padding-bottom: (1.4rem) * 12
+	padding-top: gutter(2)
+	padding-bottom: gutter(2)
 	text-align: center
 	h3
 		color: #fff
@@ -43,10 +45,13 @@
 	// 		@include box-shadow(inset 0 0 0 3px $elevate-orange)
 			
 	button
+		display: none
 		cursor: pointer
-		color: $elevate-orange
+		// color: $elevate-orange
+		color: #888ec6
 		background-color: transparent
-		@include box-shadow(inset 0 0 0 3px $elevate-orange)
+		// @include box-shadow(inset 0 0 0 3px $elevate-orange)
+		@include box-shadow(inset 0 0 0 3px #888ec6)
 		font-family: $museo-sans
 		text-transform: uppercase
 		font-size: 1.25rem
@@ -60,9 +65,12 @@
 		border: 0
 		@include transition(all 0.3s ease 0s)
 		&:hover, &:focus
-			// background-color: $elevate-orange-h
+			background-color: #888ec6
 			color: #fff
-			background-color: $elevate-orange 
+		@include breakpoint(($bp-sml))
+			display: inline-block
+			// background-color: $elevate-orange 
+
 .intro
 	padding-top: (1.4rem) * 2
 	padding-bottom: (1.4rem) * 2
